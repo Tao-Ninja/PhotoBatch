@@ -9,16 +9,16 @@
 
 # Media #
 ############
-.jpg
-.jpeg
-.psd
-.indd
-.ai
-.eps
-.bmp
-.gif
-.mp4
-.wav
+*.jpg
+*.jpeg
+*.psd
+*.indd
+*.ai
+*.eps
+*.bmp
+*.gif
+*.mp4
+*.wav
 
 # Packages #
 ############

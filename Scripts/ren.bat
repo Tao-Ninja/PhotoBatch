@@ -1,4 +1,4 @@
-cd C:\PhotoBatch\PhotoBatch\
+cd C:\Photobatch\PhotoBatch\
 setlocal enabledelayedexpansion
 for %%a in (*.jpg) do (
 set f=%%a
