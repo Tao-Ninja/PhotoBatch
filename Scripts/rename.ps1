@@ -8,3 +8,7 @@ Get-ChildItem .. -Recurse *.jpg |ForEach-Object {
     Move-Item -Path $_.FullName -Destination $Destination -Force
 }
 Get-ChildItem .. -Recurse *.jpg | Rename-item -newname { $_.name -replace ' \((\d)\)','0$1' -replace ' \((\d\d)\)','$1'}
+
+
+Write-Host "All Photos Have Been Successfully Renamed"
+

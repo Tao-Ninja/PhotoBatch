@@ -1,2 +1,6 @@
-Write-Host "Batch Photo renaming tool designed by Krashnik"
-Get-ChildItem -Parent -Recurse *.jpg | rename-item -newname { $_.name -replace ' \((\d)\)','0$1' -replace ' \((\d\d)\)','$1'}
+Write-Host "Delete all JPG Photos - Designed by Krashnik"
+# Get-ChildItem .. -Filter *.jpg -Recurse | Remove-Item -WhatIf
+
+Get-ChildItem .. -Recurse *.jpg | Remove-Item -force
+
+Write-Host "All Photos Have Been Successfully Removed"
