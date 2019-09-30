@@ -1,6 +1,6 @@
-cd C:\Users\MatthewHackney\Pictures\batch
+cd C:\PhotoBatch\PhotoBatch\
 setlocal enabledelayedexpansion
-for /r C:\Users\MatthewHackney\Pictures\batch\ %%a in (*.jpg) do ECHO (
+for /r C:\PhotoBatch\PhotoBatch\ %%a in (*.jpg) do ECHO (
 set f=%%a
 set f=!f:^(=!
 set f=!f:^)=!
